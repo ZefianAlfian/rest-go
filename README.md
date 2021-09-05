@@ -64,3 +64,5 @@ Each component will usually contains 4 files:
 - `router.go`: contains api routes and it's controller
 - `service.go`: contains the business logic of the component (avoid putting business logic directly in router to make testing easier)
 - `service_test.go`: contains tests for your `service.go`
+# rest-go
+# rest-go
