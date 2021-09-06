@@ -66,3 +66,4 @@ Each component will usually contains 4 files:
 - `service_test.go`: contains tests for your `service.go`
 # rest-go
 # rest-go
+# rest-go

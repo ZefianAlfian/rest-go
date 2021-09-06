@@ -12,7 +12,7 @@ import (
 
 	"example.com/compA"
 	// "example.com/compB"
-	"example.com/database"
+	// "example.com/database"
 )
 
 // @title Swagger Example API
@@ -44,8 +44,8 @@ func main() {
 	gin.SetMode(mode)
 
 	// initialize DB and run migration on all models
-	db := database.Init()
-	db.AutoMigrate(&compA.CompA{} /*, &compB.CompB{} */)
+	// db := database.Init()
+	// db.AutoMigrate(&compA.CompA{} /*, &compB.CompB{} */)
 
 	// create gin instance
 	app := gin.Default()
